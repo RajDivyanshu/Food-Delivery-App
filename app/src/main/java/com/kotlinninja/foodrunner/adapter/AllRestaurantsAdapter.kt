@@ -15,11 +15,12 @@ import androidx.cardview.widget.CardView
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.database.RestaurantDatabase
-import com.internshala.foodrunner.database.RestaurantEntity
-import com.internshala.foodrunner.fragment.RestaurantFragment
-import com.internshala.foodrunner.model.Restaurants
+
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.database.RestaurantDatabase
+import com.kotlinninja.foodrunner.database.RestaurantEntity
+import com.kotlinninja.foodrunner.fragment.RestaurantFragment
+import com.kotlinninja.foodrunner.model.Restaurants
 import com.squareup.picasso.Picasso
 
 class AllRestaurantsAdapter(private var restaurants: ArrayList<Restaurants>, val context: Context) :
