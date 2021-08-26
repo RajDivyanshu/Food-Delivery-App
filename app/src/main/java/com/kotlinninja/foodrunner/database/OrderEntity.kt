@@ -3,7 +3,7 @@ package com.kotlinninja.foodrunner.database
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.internshala.foodrunner.model.FoodItem
+
 
 @Entity(tableName = "orders")
 data class OrderEntity(

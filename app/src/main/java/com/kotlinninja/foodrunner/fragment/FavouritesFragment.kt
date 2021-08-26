@@ -14,16 +14,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
 
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.adapter.AllRestaurantsAdapter
-import com.internshala.foodrunner.database.RestaurantDatabase
-import com.internshala.foodrunner.database.RestaurantEntity
-import com.internshala.foodrunner.model.Restaurants
-import com.internshala.foodrunner.util.DrawerLocker
 
-/**
- * A simple [Fragment] subclass.
- */
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.adapter.AllRestaurantsAdapter
+import com.kotlinninja.foodrunner.database.RestaurantDatabase
+import com.kotlinninja.foodrunner.database.RestaurantEntity
+import com.kotlinninja.foodrunner.model.Restaurants
+import com.kotlinninja.foodrunner.util.DrawerLocker
+
+
 class FavouritesFragment : Fragment() {
 
     private lateinit var recyclerRestaurant: RecyclerView

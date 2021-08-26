@@ -7,12 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.util.DrawerLocker
 
-/**
- * A simple [Fragment] subclass.
- */
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.util.DrawerLocker
+
+
 class FAQFragment : Fragment() {
 
     override fun onCreateView(
