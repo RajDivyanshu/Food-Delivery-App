@@ -31,7 +31,7 @@
     <string name="favorites">Favorite Restaurants</string>
     <string name="channel_name">Android Training</string>
     <string name="channel_description">This notification confirms that the order is placed</string>
-    <string name="dummy_phone">+91-1234567890</string>
+    <string name="dummy_phone">+91-1234567891</string>
     <string name="empty_cart">Your cart is currently empty</string>
     <string name="no_favorites">You do not have any favorite restaurants</string>
     <string name="no_orders">You haven\'t placed any orders yet</string>
@@ -68,7 +68,7 @@
     <string name="submit">Submit</string>
     <string name="order_placed">Your order has been successfully placed!</string>
     <string name="order_history_static_text">Your previous orders are listed below :</string>
-    <string name="dummy_date">20/12/2018</string>
+    <string name="dummy_date">20/07/2021</string>
     <array name="filters">
         <item>Cost(Low to High)</item>
         <item>Cost(High to Low)</item>
