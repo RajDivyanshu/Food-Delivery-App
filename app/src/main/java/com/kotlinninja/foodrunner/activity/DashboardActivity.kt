@@ -19,12 +19,13 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.android.volley.toolbox.Volley
 import com.google.android.material.navigation.NavigationView
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.adapter.RestaurantMenuAdapter
-import com.internshala.foodrunner.fragment.*
-import com.internshala.foodrunner.fragment.RestaurantFragment.Companion.resId
-import com.internshala.foodrunner.util.DrawerLocker
-import com.internshala.foodrunner.util.SessionManager
+
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.adapter.RestaurantMenuAdapter
+import com.kotlinninja.foodrunner.fragment.*
+import com.kotlinninja.foodrunner.fragment.RestaurantFragment.Companion.resId
+import com.kotlinninja.foodrunner.util.DrawerLocker
+import com.kotlinninja.foodrunner.util.SessionManager
 
 class DashboardActivity : AppCompatActivity(), DrawerLocker {
 
