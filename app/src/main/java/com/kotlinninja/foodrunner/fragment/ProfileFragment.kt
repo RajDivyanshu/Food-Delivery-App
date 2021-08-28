@@ -10,9 +10,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.FragmentActivity
-
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.util.DrawerLocker
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.util.DrawerLocker
 
 /**
  * A simple [Fragment] subclass.
