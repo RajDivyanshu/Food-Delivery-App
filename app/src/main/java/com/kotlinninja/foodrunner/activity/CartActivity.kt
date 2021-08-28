@@ -21,14 +21,15 @@ import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
 import com.google.gson.Gson
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.adapter.CartItemAdapter
-import com.internshala.foodrunner.adapter.RestaurantMenuAdapter
-import com.internshala.foodrunner.database.OrderEntity
-import com.internshala.foodrunner.database.RestaurantDatabase
-import com.internshala.foodrunner.fragment.RestaurantFragment
-import com.internshala.foodrunner.model.FoodItem
-import com.internshala.foodrunner.util.PLACE_ORDER
+
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.adapter.CartItemAdapter
+import com.kotlinninja.foodrunner.adapter.RestaurantMenuAdapter
+import com.kotlinninja.foodrunner.database.OrderEntity
+import com.kotlinninja.foodrunner.database.RestaurantDatabase
+import com.kotlinninja.foodrunner.fragment.RestaurantFragment
+import com.kotlinninja.foodrunner.model.FoodItem
+import com.kotlinninja.foodrunner.util.PLACE_ORDER
 import org.json.JSONArray
 import org.json.JSONObject
 
