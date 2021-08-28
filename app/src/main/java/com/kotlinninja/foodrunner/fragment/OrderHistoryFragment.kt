@@ -17,15 +17,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.adapter.OrderHistoryAdapter
-import com.internshala.foodrunner.model.OrderDetails
-import com.internshala.foodrunner.util.DrawerLocker
-import com.internshala.foodrunner.util.FETCH_PREVIOUS_ORDERS
 
-/**
- * A simple [Fragment] subclass.
- */
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.adapter.OrderHistoryAdapter
+import com.kotlinninja.foodrunner.model.OrderDetails
+import com.kotlinninja.foodrunner.util.DrawerLocker
+import com.kotlinninja.foodrunner.util.FETCH_PREVIOUS_ORDERS
+
+
 class OrderHistoryFragment : Fragment() {
 
     private lateinit var recyclerOrderHistory: RecyclerView

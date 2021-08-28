@@ -19,13 +19,14 @@ import com.android.volley.Response
 import com.android.volley.VolleyError
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.internshala.foodrunner.R
-import com.internshala.foodrunner.adapter.AllRestaurantsAdapter
-import com.internshala.foodrunner.model.Restaurants
-import com.internshala.foodrunner.util.ConnectionManager
-import com.internshala.foodrunner.util.DrawerLocker
-import com.internshala.foodrunner.util.FETCH_RESTAURANTS
-import com.internshala.foodrunner.util.Sorter
+
+import com.kotlinninja.foodrunner.R
+import com.kotlinninja.foodrunner.adapter.AllRestaurantsAdapter
+import com.kotlinninja.foodrunner.model.Restaurants
+import com.kotlinninja.foodrunner.util.ConnectionManager
+import com.kotlinninja.foodrunner.util.DrawerLocker
+import com.kotlinninja.foodrunner.util.FETCH_RESTAURANTS
+import com.kotlinninja.foodrunner.util.Sorter
 import org.json.JSONException
 import org.json.JSONObject
 import java.util.*

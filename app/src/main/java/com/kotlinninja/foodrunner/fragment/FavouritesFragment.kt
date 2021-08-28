@@ -97,5 +97,4 @@ class FavouritesFragment : Fragment() {
 
     }
 
-
 }
